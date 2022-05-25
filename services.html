@@ -25,6 +25,16 @@
           font-weight: 700;
           white-space: nowrap;
           }
+
+          @media only screen and (max-width: 740px) {
+        .hidden-md {
+        visibility:hidden;
+      }
+
+      #logo img{
+        position: relative;
+        left: 40%;
+    }}
         </style>
     </head>
 
@@ -41,7 +51,7 @@
             <a href="testimonials.html">Testimonials</a>
             <a href="contact.html">Contact</a>
         </div>
-        <div class="navbar-nav pt-5 h5">
+        <div class="navbar-nav pt-5 h5 hidden-md">
             <a class="nav-link active p-2" aria-current="page" href="index.html">HOME</a>
             <a class="nav-link p-2" href="services.html">SERVICES</a>
             <button type="button" class="btn btn-warning p-0"><a class="nav-link" href="tel:8665562570"><span class="text-nowrap h6">CALL NOW</span></a></button>

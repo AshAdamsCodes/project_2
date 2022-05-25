@@ -16,6 +16,19 @@
         <link href="./assets/css/style.css" rel="stylesheet">
 
         <title>Tax King</title>
+
+        <style>
+           @media only screen and (max-width: 740px) {
+        .hidden-md {
+        visibility:hidden;
+      }
+
+      #logo img{
+        position: relative;
+        left: 40%;
+      }
+    }
+      </style>
     </head>
 
     <body>
@@ -31,8 +44,8 @@
             <a href="testimonials.html">Testimonials</a>
             <a href="contact.html">Contact</a>
         </div>
-        <div class="navbar-nav pt-5 h5">
-            <a class="nav-link active p-2" aria-current="page" href="index.html">HOME</a>
+        <div class="navbar-nav pt-5 h5 hidden-md">
+            <a class="nav-link active p-2 hidden-sm" aria-current="page" href="index.html">HOME</a>
             <a class="nav-link p-2" href="services.html">SERVICES</a>
             <button type="button" class="btn btn-warning p-0"><a class="nav-link" href="tel:8665562570"><span class="text-nowrap h6">CALL NOW</span></a></button>
         </div>
@@ -53,19 +66,19 @@
        <section>
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-3">
               <div class=" text-center">
                 <h1 class="display-1" style="font-size: 125px">15</h1>
                 <h4>Years <br> Experience</h4>
             </div>
           </div>
-            <div class="col-md-3 text-center">
+            <div class="col-sm-3 text-center">
               <div>
                 <h1 class="display-1" style="font-size: 125px";>45</h1>
                 <h4>Awards</h4>
                 </div>
           </div>
-            <div class="col-md-6 text-center">
+            <div class="col-sm-6 text-center">
                 <div>
                   <h1 class="display-1" style="font-size: 125px";>10,000+</h1>
                   <h4>Tax <br> Filings</h4>

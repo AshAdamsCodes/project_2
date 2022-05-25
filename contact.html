@@ -16,6 +16,22 @@
 
         <link href="./assets/css/style.css" rel="stylesheet">
         <title>Tax King</title>
+        
+        <style>
+          @media only screen and (max-width: 740px) {
+        .hidden-md {
+        visibility:hidden;
+      }
+      #logo img{
+        position: relative;
+        left: 40%;
+      }
+    }
+
+    iframe{
+      max-width: 100%;
+    }
+        </style>
     </head>
 
     <body>
@@ -31,7 +47,7 @@
             <a href="testimonials.html">Testimonials</a>
             <a href="contact.html">Contact</a>
         </div>
-        <div class="navbar-nav pt-5 h5">
+        <div class="navbar-nav pt-5 h5 hidden-md">
             <a class="nav-link active p-2" aria-current="page" href="index.html">HOME</a>
             <a class="nav-link p-2" href="services.html">SERVICES</a>
             <button type="button" class="btn btn-warning p-0"><a class="nav-link" href="tel:8665562570"><span class="text-nowrap h6">CALL NOW</span></a></button>
@@ -39,12 +55,12 @@
       </nav>
 
       <section>
-        <div class="container-fluid pt-5">
+        <div class="container pt-5">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <iframe style="height: 400px; width: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.5089699285913!2d-73.92316738460306!3d40.816782879320726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f5cf0b9dbd2d%3A0x82c484541502cc98!2sTAXKING!5e0!3m2!1sen!2sus!4v1653341609893!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col-md-3 card bg-light border-warning mb-3" style="max-width: 18rem;">
+            <div class="col-md-6 card bg-light border-warning mb-3" style="max-width: 18rem;">
                 <div class="card-header border-warning h4 text-center">Business Hours</div>
                 <div class="card-body">
                   <p class="card-text pt-4">Mon: 9:00 AM – 7:00 PM</p>

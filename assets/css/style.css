@@ -6,9 +6,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-body{
-    /*font-family: "Lato", sans-serif;*/
-    }
+
 
     .sidenav {
     height: 100%;
@@ -49,5 +47,10 @@ body{
     .sidenav a {font-size: 18px;}
     }
 
+    @media only screen and (max-width: 740px) {
+        .hidden-md {
+        visibility:hidden;
+      }
+    }
 
-
+   
